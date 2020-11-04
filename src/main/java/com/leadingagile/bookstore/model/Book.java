@@ -23,6 +23,13 @@ import static org.apache.commons.lang3.StringUtils.isNotEmpty;
  * @author neopragma
  * @since 1.8
  */
+
+/**
+ * Represents the domain concept "Book".
+ *
+ * @MIGUEL
+ * @since 1.8
+ */
 @Entity
 @Table(name = "books")
 @EntityListeners(AuditingEntityListener.class)
